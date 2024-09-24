@@ -1,0 +1,6 @@
+.Btn {
+  @apply w-[211px] h-[54px] rounded-[5px] bg-button flex items-center justify-center text-white font-inter font-medium text-[18px] cursor-pointer leading-[26px] ;
+ .icon{
+  @apply mr-[16px];
+ }
+}

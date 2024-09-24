@@ -1,0 +1,44 @@
+.banner {
+  @apply w-full;
+  .container {
+    @apply flex items-center gap-[72px] mt-[76px] mb-[191px] px-[100px];
+    .bannerImage {
+      @apply w-[469px];
+    }
+    .bannerText {
+      @apply mt-[50px] w-[540px];
+      .tagLine {
+        @apply font-ptSerif text-[20px] font-normal text-secondary mb-[20px];
+      }
+      .bannerHeading {
+        @apply font-ptSerif text-[72px] text-black font-normal leading-[72px] w-full;
+      }
+      .description {
+        @apply font-inter font-normal text-[18px] leading-[32px] text-[#A0A79A] mt-[20px];
+      }
+      div {
+        button {
+          @apply mt-[94px] mb-[20px];
+        }
+      }
+      .rating {
+        @apply w-[425px] flex  justify-between;
+        div {
+          @apply flex items-start;
+          svg {
+            @apply w-[25px] h-[25px] text-secondary mr-[8px] mt-[10px] 
+          }
+          div {
+            @apply flex flex-col items-start ;
+            & p:nth-child(1) {
+               @apply font-inter font-bold text-[32px] leading-[46px] text-black
+            }
+            & p:nth-last-child(1) {
+                @apply font-inter text-[18px] font-normal leading-[26px] text-[#A0A79A]
+          }
+        }
+      }
+    }
+  }
+}
+}

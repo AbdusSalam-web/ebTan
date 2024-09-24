@@ -1,0 +1,42 @@
+.banner {
+  @apply w-full;
+}
+.banner .container {
+  @apply flex items-center gap-[72px] mt-[76px] mb-[191px] px-[100px];
+}
+.banner .container .bannerImage {
+  @apply w-[469px];
+}
+.banner .container .bannerText {
+  @apply mt-[50px] w-[540px];
+}
+.banner .container .bannerText .tagLine {
+  @apply font-ptSerif text-[20px] font-normal text-secondary mb-[20px];
+}
+.banner .container .bannerText .bannerHeading {
+  @apply font-ptSerif text-[72px] text-black font-normal leading-[72px] w-full;
+}
+.banner .container .bannerText .description {
+  @apply font-inter font-normal text-[18px] leading-[32px] text-[#A0A79A] mt-[20px];
+}
+.banner .container .bannerText div button {
+  @apply mt-[94px] mb-[20px];
+}
+.banner .container .bannerText .rating {
+  @apply w-[425px] flex  justify-between;
+}
+.banner .container .bannerText .rating div {
+  @apply flex items-start;
+}
+.banner .container .bannerText .rating div svg {
+  @apply w-[25px] h-[25px] text-secondary mr-[8px] mt-[10px];
+}
+.banner .container .bannerText .rating div div {
+  @apply flex flex-col items-start;
+}
+.banner .container .bannerText .rating div div p:nth-child(1) {
+  @apply font-inter font-bold text-[32px] leading-[46px] text-black;
+}
+.banner .container .bannerText .rating div div p:nth-last-child(1) {
+  @apply font-inter text-[18px] font-normal leading-[26px] text-[#A0A79A];
+}/*# sourceMappingURL=Banner.css.map */

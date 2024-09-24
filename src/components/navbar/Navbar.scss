@@ -1,0 +1,17 @@
+.navbar {
+  @apply w-full;
+  .container {
+    @apply flex items-center justify-between px-[50px] pt-[33px];
+    .logo {
+      @apply font-inter font-black text-[34px] leading-[64px] text-brand;
+      a {
+        @apply cursor-pointer;
+      }
+    }
+    .menu {
+      .icon{
+        @apply text-brand cursor-pointer rotate-180;
+      }
+    }
+  }
+}
