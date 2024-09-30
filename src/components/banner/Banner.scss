@@ -1,15 +1,13 @@
 .banner {
   @apply w-full;
   .container {
-    @apply flex items-center gap-[72px] mt-[76px] mb-[191px] px-[100px];
+    @apply flex items-center gap-[72px] pt-[76px] mb-[191px] px-[100px];
     .bannerImage {
       @apply w-[469px];
     }
     .bannerText {
       @apply mt-[50px] w-[540px];
-      .tagLine {
-        @apply font-ptSerif text-[20px] font-normal text-secondary mb-[20px];
-      }
+      
       .bannerHeading {
         @apply font-ptSerif text-[72px] text-black font-normal leading-[72px] w-full;
       }

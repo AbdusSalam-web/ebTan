@@ -1,13 +1,15 @@
-import React from 'react'
-import Banner from '../../components/banner/banner'
-import WhyUs from '../../components/whyUs/WhyUs'
+import React from "react";
+import Banner from "../../components/banner/banner";
+import WhyUs from "../../components/whyUs/WhyUs";
 const Home = () => {
   return (
-      <>
-      <Banner />
-      {/* <WhyUs /> */}
-      </>
-  )
-}
+    <>
+      <div className="bg-[#F6F4F0]">
+        <Banner />
+        <WhyUs />
+      </div>
+    </>
+  );
+};
 
-export default Home
+export default Home;

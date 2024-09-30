@@ -11,13 +11,19 @@
   @apply flex gap-[33px] mt-[58px] mb-[36px];
 }
 .footer .container .footerLinks a {
-  @apply font-inter font-medium text-[18px] leading-[22px] text-[#FFFFFF];
+  @apply font-inter font-medium text-[18px] leading-[22px] text-[#FFFFFF] transition-all duration-300;
+}
+.footer .container .footerLinks a:hover {
+  @apply text-slate-400;
 }
 .footer .container .socialIcon {
   @apply flex gap-[29px]  text-[#FFFFFF];
 }
 .footer .container .socialIcon svg {
-  @apply w-[25px] h-[25px] cursor-pointer;
+  @apply w-[25px] h-[25px] cursor-pointer transition-all duration-300;
+}
+.footer .container .socialIcon svg:hover {
+  @apply text-slate-400;
 }
 .footer .container .copyright {
   @apply font-inter font-medium text-[18px] leading-[22px] text-[#FFFFFF] mt-[20px];

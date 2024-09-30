@@ -2,16 +2,13 @@
   @apply w-full;
 }
 .banner .container {
-  @apply flex items-center gap-[72px] mt-[76px] mb-[191px] px-[100px];
+  @apply flex items-center gap-[72px] pt-[76px] mb-[191px] px-[100px];
 }
 .banner .container .bannerImage {
   @apply w-[469px];
 }
 .banner .container .bannerText {
   @apply mt-[50px] w-[540px];
-}
-.banner .container .bannerText .tagLine {
-  @apply font-ptSerif text-[20px] font-normal text-secondary mb-[20px];
 }
 .banner .container .bannerText .bannerHeading {
   @apply font-ptSerif text-[72px] text-black font-normal leading-[72px] w-full;

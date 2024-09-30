@@ -1,9 +1,26 @@
 import "./Banner.css";
-import Button from "../button/button";
+import Button from "../Common/button/Button";
 import { FaStar } from "react-icons/fa6";
 import { FaShoppingBag } from "react-icons/fa";
 import { HiEmojiHappy } from "react-icons/hi";
+import CountUp from "react-countup";
+import Tagline from "../Common/tag/Tagline";
 const Banner = () => {
+  const productSold = (
+    <CountUp start={0} end={200} duration={2.75} suffix="+"></CountUp>
+  );
+  const rating = (
+    <CountUp
+      start={0.0}
+      end={4.6}
+      decimals={1}
+      duration={2.75}
+      separator=", "
+    ></CountUp>
+  );
+  const reviews = (
+    <CountUp start={0.0} end={99} duration={2.75} suffix="+"></CountUp>
+  );
   return (
     <>
       <div className="banner">
@@ -12,7 +29,7 @@ const Banner = () => {
             <img src="/images/bannner_img.png" alt="banner" />
           </div>
           <div className="bannerText">
-            <p className="tagLine">Normal to oily skin</p>
+            <Tagline />
             <h1 className="bannerHeading">Men’s Sunscreen hand & body</h1>
             <p className="description">
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -25,21 +42,21 @@ const Banner = () => {
               <div>
                 <FaStar />
                 <div>
-                  <p> 4.6</p>
+                  <p> {rating}</p>
                   <p>Rating</p>
                 </div>
               </div>
               <div>
                 <FaShoppingBag />
                 <div>
-                  <p> 200+</p>
+                  <p>{productSold} </p>
                   <p>Product solds</p>
                 </div>
               </div>
               <div>
                 <HiEmojiHappy />
                 <div>
-                  <p>99+</p>
+                  <p>{reviews} </p>
                   <p>Review</p>
                 </div>
               </div>

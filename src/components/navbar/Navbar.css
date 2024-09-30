@@ -1,5 +1,5 @@
 .navbar {
-  @apply w-full;
+  @apply w-full bg-[#F6F4F0];
 }
 .navbar .container {
   @apply flex items-center justify-between px-[50px] pt-[33px];
@@ -23,7 +23,7 @@
   @apply hidden;
 }
 .navbar .container .menuIcon .menu {
-  @apply absolute top-[15px] right-0;
+  @apply absolute top-[25px] right-0;
 }
 .navbar .container .menuIcon .menu ul {
   @apply w-[224px]  flex flex-col  bg-brand rounded-[10px] overflow-hidden;
