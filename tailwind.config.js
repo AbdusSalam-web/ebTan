@@ -11,8 +11,8 @@ export default {
     },
     extend: {
       colors: {
-        brand: "#C51605",
-        secondary: "#F2994A",
+        brand: "#E52525",
+        secondary:"#F2994A",
         black: "#333333",
         button: "#E52525",
         textClr: "#A0A79A",
