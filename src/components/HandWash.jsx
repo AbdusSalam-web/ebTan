@@ -9,7 +9,7 @@ const HandWash = () => {
   return (
     <>
       <section className="hand_wash w-full bg-[#ECEBE6]">
-        <div className="container  w-[1220px] mx-auto pt-[110px] pb-[149px] flex gap-[120px] flex-wrap ">
+        <div className="container  w-[1220px] mx-auto pt-[110px] pb-[149px] flex items-center justify-center gap-[120px] flex-wrap ">
           <div className="product_description">
             <CommonHeading cHeading="All skins types" />
             <div className="counter pt-[36px] mb-[42px] w-[425px] flex justify-between">

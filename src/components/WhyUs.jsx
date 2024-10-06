@@ -16,9 +16,9 @@ const WhyUs = () => {
               industry. Lorem Ipsum has been the industry's
             </p>
           </div>
-          <div className="w-[1180px] flex gap-[20px]  ">
+          <div className="w-[1180px] flex gap-[20px] items-center justify-center flex-wrap lg:flex-nowrap  ">
             <div className=" bg-[#F0EFEA]  pt-[32px] pl-[26px] pr-[41px] pb-[41px] ">
-              <div className="icon w-[58px] h-[58px] rounded-full bg-[#CDD5CA] flex items-center justify-center shadow-[0px_4px_4px_rgba(0,0,0,0.25)] ">
+              <div className="icon w-[58px] h-[58px] rounded-full bg-[#CDD5CA] flex items-center justify-center shadow-[0px_4px_4px_rgba(0,0,0,0.25)]  transition-all duration-300 hover:shadow-none">
                 <FaStar className="text-[35px] text-[#C51605]" />
               </div>
               <h3 className="font-inter font-bold text-[22px] text-[#333333] leading-[32px] pt-[20px] pb-[11px] ">
@@ -30,7 +30,7 @@ const WhyUs = () => {
               </p>
             </div>
             <div className=" bg-[#F0EFEA]  pt-[32px] pl-[26px] pr-[41px] pb-[41px] ">
-              <div className="icon w-[58px] h-[58px] rounded-full bg-[#CDD5CA] flex items-center justify-center shadow-[0px_4px_4px_rgba(0,0,0,0.25)] ">
+              <div className="icon w-[58px] h-[58px] rounded-full bg-[#CDD5CA] flex items-center justify-center shadow-[0px_4px_4px_rgba(0,0,0,0.25)] transition-all duration-300 hover:shadow-none">
                 <FaSyringe className="text-[35px] text-[#C51605]" />
               </div>
               <h3 className="font-inter font-bold text-[22px] text-[#333333] leading-[32px] pt-[20px] pb-[11px] ">
@@ -42,7 +42,7 @@ const WhyUs = () => {
               </p>
             </div>
             <div className=" bg-[#F0EFEA]  pt-[32px] pl-[26px] pr-[41px] pb-[41px] ">
-              <div className="icon w-[58px] h-[58px] rounded-full bg-[#CDD5CA] flex items-center justify-center shadow-[0px_4px_4px_rgba(0,0,0,0.25)] ">
+              <div className="icon w-[58px] h-[58px] rounded-full bg-[#CDD5CA] flex items-center justify-center shadow-[0px_4px_4px_rgba(0,0,0,0.25)] transition-all duration-300 hover:shadow-none ">
                 <TiTick className="text-[35px] text-[#C51605]" />
               </div>
               <h3 className="font-inter font-bold text-[22px] text-[#333333] leading-[32px] pt-[20px] pb-[11px] ">

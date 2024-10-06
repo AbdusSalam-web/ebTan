@@ -7,12 +7,12 @@ const Products = () => {
   return (
     <>
       <section className="products w-full  bg-[#F6F4F0] mx-auto  ">
-        <div className="container w-[1208px] pt-[110px] ">
-          <div className="cream flex gap-[120px]">
+        <div className="container w-full  lg:w-[1208px] pt-[110px] flex md:items-center md:justify-center md:flex-wrap ">
+          <div className="cream w-full flex items-center justify-center flex-wrap lg:flex-nowrap gap-[120px]">
             <div>
-              <img src="./images/cream.png" alt="Cream image" />
+              <img src="./images/cream.png" alt="Cream image" className=" md:w-[600px]" />
             </div>
-            <div className="product_details">
+            <div className="product_details md:w-[500px]">
               <CommonHeading cHeading="All skins types" />
               <h3 className="w-[215px] my-[33px] font-ptSerif font-normal text-[48px] leading-[64px] text-[#333333]">
                 Men’s day cream
@@ -42,7 +42,7 @@ const Products = () => {
               </div>
             </div>
           </div>
-          <div className="balm w-[1208px] flex gap-[190px] py-[143px]">
+          <div className="balm w-[1208px] flex gap-[190px] py-[143px] items-center justify-center flex-wrap lg:flex-nowrap">
             <div className="product_details">
               <CommonHeading cHeading="Only skins types" />
               <h3 className="w-[479px] my-[33px] font-ptSerif font-normal text-[48px] leading-[64px] text-[#333333]">

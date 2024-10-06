@@ -2,6 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    screens: {
+      lg: "1300px",
+      md: "975px",
+    },
     fontFamily: {
       inter: ["Inter", "sans-serif"],
       ptSerif: ["PT Serif", "serif"],

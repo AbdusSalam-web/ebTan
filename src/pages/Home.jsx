@@ -3,7 +3,9 @@ import Banner from '../components/Banner';
 import WhyUs from '../components/WhyUs';
 import HandWash from '../components/HandWash';
 import Products from '../components/common/Products';
-import Review from '../components/common/Review';
+import Review from '../components/Review';
+import Subscribe from '../components/Subscribe';
+import Footer from '../components/Footer';
 const Home = () => {
   return (
     <>
@@ -12,6 +14,8 @@ const Home = () => {
       <HandWash />
       <Products />
       <Review />
+      <Subscribe />
+      <Footer />
     </>
   );
 }
